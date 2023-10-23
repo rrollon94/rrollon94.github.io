@@ -1,0 +1,125 @@
+
+.body1  {
+    
+  background-color: lightsalmon;
+  
+}
+
+.header1 {
+    text-align: center;
+    font-family: 'Brush Script MT', cursive; 
+    position: relative;
+    top: 0px;
+    left: 200px;
+    width: 75%;
+    z-index: 2;
+}
+
+.img  {
+width:  585px;
+height: 500px;
+border: 2px solid black;
+
+padding: 10 px;
+
+}
+
+
+
+
+
+
+li {
+background-color: salmon;
+text-align: center;    
+display: inline-block;
+width: 24%;
+height: 50px;
+text-decoration: none;
+
+}
+
+
+.nav1 {
+position: sticky;
+top: 0px;
+width: 100%;
+}
+
+
+
+table, tr, th, td {
+    border: 1px solid black;
+    border-collapse:collapse;
+    text-align: center;
+}
+
+main {
+
+
+display: grid;    
+grid-template-columns: repeat(3,1fr);
+grid-auto-rows: 500px;
+grid-gap: 2px;
+grid-template-areas:
+"section1 section2 section3"
+"section4 section5 section6"
+"section7 section8 section9";
+gap: .8em;
+padding: 15px;
+
+}
+
+.galeria_section1 {
+grid-area: section1;
+
+}
+
+.galeria_section2 {
+ grid-area: section2;
+
+
+    }
+
+.galeria_section3 {
+
+ grid-area: section3;
+      
+    }
+
+
+.galeria_section4 {
+
+    grid-area: section4;
+                                      
+    } 
+    
+    
+.galeria_section5 {
+    grid-area: section5;
+
+                                
+        }    
+ 
+.galeria_section6 {
+    grid-area: section6
+   } 
+   
+
+.galeria_section7 {
+    grid-area: section7;
+
+                                
+     }   
+
+.galeria_section8 {
+    grid-area: section8;
+
+                                
+     }
+     
+.galeria_section9 {
+    grid-area: section9;
+
+                                        
+             }        
